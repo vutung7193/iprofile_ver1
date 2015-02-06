@@ -43917,3 +43917,48 @@ Stack trace:
 REQUEST_URI=/iprofile/index.php/site/js/bootstrap.min.js
 HTTP_REFERER=http://localhost/iprofile/index.php/site/projects
 ---
+2015/02/06 15:36:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp2\www\iprofile\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp2\www\iprofile\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp2\www\iprofile\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp2\www\iprofile\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 E:\wamp2\www\iprofile\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp2\www\iprofile\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('home')
+#6 E:\wamp2\www\iprofile\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 E:\wamp2\www\iprofile\index.php(8): CComponent->__call('runEnd', Array)
+#8 E:\wamp2\www\iprofile\index.php(8): CWebApplication->runEnd('home')
+#9 {main}
+REQUEST_URI=/iprofile/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/iprofile/index.php/site/projects
+---
+2015/02/06 15:36:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp2\www\iprofile\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp2\www\iprofile\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp2\www\iprofile\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp2\www\iprofile\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 E:\wamp2\www\iprofile\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp2\www\iprofile\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('home')
+#6 E:\wamp2\www\iprofile\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 E:\wamp2\www\iprofile\index.php(8): CComponent->__call('runEnd', Array)
+#8 E:\wamp2\www\iprofile\index.php(8): CWebApplication->runEnd('home')
+#9 {main}
+REQUEST_URI=/iprofile/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/iprofile/index.php/site/teams
+---
+2015/02/06 15:36:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp2\www\iprofile\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp2\www\iprofile\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp2\www\iprofile\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp2\www\iprofile\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 E:\wamp2\www\iprofile\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp2\www\iprofile\protected\components\WebApplicationEndBehavior.php(21): CApplication->run()
+#5 [internal function]: WebApplicationEndBehavior->runEnd('home')
+#6 E:\wamp2\www\iprofile\framework\base\CComponent.php(261): call_user_func_array(Array, Array)
+#7 E:\wamp2\www\iprofile\index.php(8): CComponent->__call('runEnd', Array)
+#8 E:\wamp2\www\iprofile\index.php(8): CWebApplication->runEnd('home')
+#9 {main}
+REQUEST_URI=/iprofile/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/iprofile/index.php/site/teams
+---
